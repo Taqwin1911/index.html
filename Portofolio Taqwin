@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio - Ahmad Taqwin</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        .hero-bg {
+            background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+        .profile-img {
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+            border: 5px solid white;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header dengan Foto Profil -->
+    <header class="hero-bg text-white py-12 shadow-lg">
+        <div class="container mx-auto px-4 text-center">
+            <img src="https://i.imgur.com/5KjYrSd.jpg" alt="Foto Ahmad Taqwin" class="profile-img rounded-full mx-auto mb-4">
+            <h1 class="text-[clamp(2rem,5vw,3.5rem)] font-bold mb-3">AHMAD TAQWIN</h1>
+            <p class="text-xl opacity-90 font-light">Lulusan Teknik Komputer dan Jaringan</p>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-10 max-w-5xl">
+
+        <!-- Profil Singkat -->
+        <section class="bg-white rounded-2xl shadow-lg p-8 mb-8">
+            <h2 class="text-2xl font-bold text-blue-800 mb-6 flex items-center border-b pb-3">
+                <i class="fas fa-user-circle mr-3 text-3xl"></i> PROFIL SINGKAT
+            </h2>
+            <p class="leading-relaxed text-justify text-gray-700">
+                Saya adalah lulusan SMK berbasis pesantren yang memiliki karakter <strong class="text-blue-700 font-semibold">disiplin, jujur, dan bertanggung jawab</strong>. 
+                Memiliki pengalaman kerja yang beragam mulai dari teknisi, kurir, operator pabrik, hingga pelayanan hotel. 
+                Saya terbiasa bekerja dengan teratur, teliti, cepat beradaptasi, dan siap bekerja keras.
+            </p>
+        </section>
+
+        <!-- Pendidikan -->
+        <section class="bg-white rounded-2xl shadow-lg p-8 mb-8">
+            <h2 class="text-2xl font-bold text-blue-800 mb-6 flex items-center border-b pb-3">
+                <i class="fas fa-graduation-cap mr-3"></i> RIWAYAT PENDIDIKAN
+            </h2>
+            <div class="flex items-start space-x-4">
+                <div class="bg-blue-100 p-3 rounded-full text-blue-700">
+                    <i class="fas fa-school text-xl"></i>
+                </div>
+                <div class="flex-1">
+                    <h3 class="text-xl font-semibold text-gray-800">SMK Berbasis Pesantren Darul Ulum Rejosari</h3>
+                    <p class="text-blue-600 font-medium mb-2">Jurusan: Teknik Komputer dan Jaringan (TKJ)</p>
+                    <p class="text-gray-700">Menempuh pendidikan dengan sistem kombinasi antara kurikulum nasional dan nilai-nilai keislaman.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pengalaman Kerja -->
+        <section class="bg-white rounded-2xl shadow-lg p-8 mb-8">
+            <h2 class="text-2xl font-bold text-blue-800 mb-6 flex items-center border-b pb-3">
+                <i class="fas fa-briefcase mr-3"></i> PENGALAMAN KERJA
+            </h2>
+
+            <div class="space-y-6">
+                <div class="border-l-4 border-green-500 pl-4">
+                    <h3 class="font-bold text-lg text-gray-800">Room Boy - Hotel Rahayu</h3>
+                    <p class="text-sm text-gray-500 mb-2"><i class="fas fa-map-marker-alt"></i> Semarang Utara</p>
+                    <ul class="list-disc list-inside text-sm text-gray-600">
+                        <li>Membersihkan kamar tamu dan area umum hotel</li>
+                        <li>Menyiapkan perlengkapan kamar dan merapikan tempat tidur</li>
+                        <li>Melayani kebutuhan tamu dengan ramah dan sopan</li>
+                    </ul>
+                </div>
+
+                <div class="border-l-4 border-green-500 pl-4">
+                    <h3 class="font-bold text-lg text-gray-800">Operator Oven - PT Demak Putra Mandiri</h3>
+                    <p class="text-sm text-gray-500 mb-2"><i class="far fa-calendar-alt"></i> Durasi: 14 Bulan</p>
+                    <ul class="list-disc list-inside text-sm text-gray-600">
+                        <li>Mengoperasikan mesin oven sesuai prosedur kerja</li>
+                        <li>Mengatur suhu dan waktu proses agar hasil maksimal</li>
+                        <li>Melakukan pengecekan rutin pada alat</li>
+                    </ul>
+                </div>
+
+                <div class="border-l-4 border-green-500 pl-4">
+                    <h3 class="font-bold text-lg text-gray-800">Pabrik Pengolahan Es Kristal</h3>
+                    <p class="text-sm text-gray-500 mb-2"><i class="far fa-calendar-alt"></i> Durasi: 4 Bulan</p>
+                    <ul class="list-disc list-inside text-sm text-gray-600">
+                        <li>Bertugas memproses dan mengolah bahan menjadi es kristal</li>
+                        <li>Menjaga kebersihan area kerja dan kelancaran produksi</li>
+                    </ul>
+                </div>
+
+                <div class="border-l-4 border-green-500 pl-4">
+                    <h3 class="font-bold text-lg text-gray-800">Operator Poles Batu - PT Beril Jaya Sejahtera</h3>
+                    <p class="text-sm text-gray-500 mb-2"><i class="far fa-calendar-alt"></i> Durasi: 6 Bulan</p>
+                    <ul class="list-disc list-inside text-sm text-gray-600">
+                        <li>Melakukan perawatan dan pengecekan mesin secara berkala</li>
+                        <li>Mengoperasikan mesin poles dengan benar dan aman</li>
+                    </ul>
+                </div>
+                
+                <div class="border-l-4 border-green-500 pl-4">
+                    <h3 class="font-bold text-lg text-gray-800">Kurir Paket Kargo</h3>
+                    <p class="text-sm text-gray-500 mb-2"><i class="far fa-calendar-alt"></i> Durasi: 3 Bulan</p>
+                    <ul class="list-disc list-inside text-sm text-gray-600">
+                        <li>Mengantar paket dan barang ke alamat pelanggan</li>
+                        <li>Menjaga keamanan barang dan ketepatan waktu</li>
+                    </ul>
+                </div>
+
+                <div class="border-l-4 border-green-500 pl-4">
+                    <h3 class="font-bold text-lg text-gray-800">Magang Teknisi - Toko Komputer</h3>
+                    <p class="text-sm text-gray-500 mb-2"><i class="far fa-calendar-alt"></i> Durasi: 3 Bulan (PKL)</p>
+                    <ul class="list-disc list-inside text-sm text-gray-600">
+                        <li>Memperbaiki komputer dan laptop yang rusak</li>
+                        <li>Install ulang Windows dan aplikasi</li>
+                        <li>Merakit PC dan melayani pelanggan</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Keahlian -->
+        <section class="bg-white rounded-2xl shadow-lg p-8 mb-8">
+            <h2 class="text-2xl font-bold text-blue-800 mb-6 flex items-center border-b pb-3">
+                <i class="fas fa-cogs mr-3"></i> KEAHLIAN
+            </h2>
+            
+            <div class="overflow-x-auto">
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="w-1/2"><i class="fas fa-tools text-blue-600 mr-2"></i> KEAHLIAN TEKNIS</th>
+                            <th class="w-1/2"><i class="fas fa-user-check text-green-600 mr-2"></i> KEAHLIAN PRIBADI</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>✅ Bisa memperbaiki komputer & laptop</td>
+                            <td>✅ Disiplin & Bertanggung Jawab</td>
+                        </tr>
+                        <tr>
+                            <td>✅ Bisa install Windows & Aplikasi</td>
+                            <td>✅ Jujur & Amanah</td>
+                        </tr>
+                        <tr>
+                            <td>✅ Mengerti pasang kabel jaringan</td>
+                            <td>✅ Bisa bekerja sama dalam tim</td>
+                        </tr>
+                        <tr>
+                            <td>✅ Bisa mengoperasikan & merawat mesin</td>
+                            <td>✅ Rajin, Cekatan & Cepat Belajar</td>
+                        </tr>
+                        <tr>
+                            <td>✅ Bisa pakai Microsoft Office</td>
+                            <td>✅ Siap bekerja shift/lembur</td>
+                        </tr>
+                        <tr>
+                            <td>✅ Mampu menjaga kebersihan & kerapian</td>
+                            <td>✅ Ramah & Sopan dalam pelayanan</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Kontak -->
+        <section class="bg-white rounded-2xl shadow-lg p-8">
+            <h2 class="text-2xl font-bold text-blue-800 mb-6 flex items-center border-b pb-3">
+                <i class="fas fa-address-book mr-3"></i> DATA PRIBADI
+            </h2>
+            <div class="grid md:grid-cols-2 gap-4 text-lg">
+                <p class="flex items-center"><i class="fas fa-user w-8 text-blue-700"></i> <strong>Nama:</strong> &nbsp; Ahmad Taqwin</p>
+                <p class="flex items-center"><i class="fas fa-birthday-cake w-8 text-blue-700"></i> <strong>TTL:</strong> &nbsp; Grobogan, 1 September 2004</p>
+                <p class="flex items-center md:col-span-2"><i class="fas fa-map-marker-alt w-8 text-blue-700"></i> <strong>Alamat:</strong> &nbsp; Dusun Gembel RT 05 RW 02, Desa Rejosari, Kec. Grobogan, Kab. Grobogan, Jawa Tengah</p>
+                <p class="flex items-center"><i class="fas fa-phone w-8 text-blue-700"></i> <strong>HP/WA:</strong> &nbsp; 083128502454</p>
+                <p class="flex items-center"><i class="fas fa-envelope w-8 text-blue-700"></i> <strong>Email:</strong> &nbsp; ahmadtaqwin45@gmail.com</p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-blue-800 text-white text-center py-4 mt-10">
+        <p>&copy; 2024 - Portofolio Ahmad Taqwin</p>
+    </footer>
+
+</body>
+</html>
